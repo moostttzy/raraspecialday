@@ -1,7 +1,6 @@
-// Fungsi untuk menampilkan konten utama
+
 function showMainContent() {
-    // Hilangkan landing page
+    console.log("Button clicked!"); // Debugging
     document.getElementById("landing-page").classList.add("hidden");
-    // Tampilkan halaman utama
     document.getElementById("main-content").classList.remove("hidden");
 }
